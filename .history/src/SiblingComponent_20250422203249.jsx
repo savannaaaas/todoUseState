@@ -1,0 +1,15 @@
+import React, {useState} from "react";
+const SiblingComponent = ()=>{
+    const [text,setText] = useState('')
+    const ChangeText = ()=>{
+        setText(()=> "Redev")
+    }
+return (
+    
+    <div>
+        <button onClick={ChangeText}>Изменить текст</button>
+    </div>
+)
+
+}
+export default SiblingComponent;
